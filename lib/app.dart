@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:go_landing/page/landing_page.dart';
+import 'package:go_landing/page/landing_2_page.dart';
+import 'package:go_landing/page/landing_1_page.dart';
 
 class App extends StatefulWidget {
   @override
@@ -27,7 +28,7 @@ class _AppState extends State<App> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LandingPage(),
+      home: Landing2Page(),
     );
   }
 }

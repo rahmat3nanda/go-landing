@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:go_landing/model/app/container_model.dart';
 
-class LandingPage extends StatefulWidget {
+class Landing1Page extends StatefulWidget {
   @override
-  _LandingPageState createState() => _LandingPageState();
+  _Landing1PageState createState() => _Landing1PageState();
 }
 
-class _LandingPageState extends State<LandingPage> {
+class _Landing1PageState extends State<Landing1Page> {
   GlobalKey<ScaffoldState> _scaffoldKey;
   ContainerModel _mainContainer;
   ContainerModel _defaultMainContainer;
